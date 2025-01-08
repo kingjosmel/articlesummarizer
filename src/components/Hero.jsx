@@ -16,11 +16,11 @@ export default function Hero() {
             </nav>
 
             <h1 className='head_text'>
-                Summarize Article with <br className='max-md:hidden'/>
+                Summarize Website with <br className='max-md:hidden'/>
                 <span className='orange_gradient'>OpenAi GPT-4</span>
             </h1>
             <h2 className='desc'>
-                simplify your reading with summize,an open-source article summarizer that transforms lengthy articles into clear and concise summaries 
+                simplify your reading with summize,an open-source Website summarizer that transforms lengthy articles into clear and concise summaries 
             </h2>
         </header>
     )
