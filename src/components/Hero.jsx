@@ -2,13 +2,13 @@ import Logo from '../assets/logo.svg'
 
 export default function Hero() {
     return (
-        <header className='w-full flex justify-center items-center flex-col'>
-            <nav className='flex justify-between items-center w-full mb-10 pt-3'>
-                <img src={Logo} alt='sums-logo' className='w-28 object-contain'/>
+        <header className='flex flex-col items-center justify-center w-full'>
+            <nav className='flex items-center justify-between w-full pt-3 mb-10'>
+                <img src={Logo} alt='sums-logo' className='object-contain w-28'/>
 
                 <button
                 type='button'
-                onClick={() => window.open()}
+                onClick={() => window.open('https://github.com/kingjosmel/articlesummarizer')}
                 className='black_btn'
                 >
                     Github
@@ -20,7 +20,7 @@ export default function Hero() {
                 <span className='orange_gradient'>OpenAi GPT-4</span>
             </h1>
             <h2 className='desc'>
-                simplify your reading with summize,an open-source Website summarizer that transforms lengthy articles into clear and concise summaries 
+                simplify your reading with summize,an open-source Website article summarizer that transforms lengthy articles into clear and concise summaries 
             </h2>
         </header>
     )
